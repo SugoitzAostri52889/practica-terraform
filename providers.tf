@@ -14,5 +14,5 @@ provider "opennebula" {
 }
 
 data "opennebula_virtual_network" "target_net" {
-  name = var.prod_network_name
+  id = var.prod_network_name
 }
